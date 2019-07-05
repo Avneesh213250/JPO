@@ -1,0 +1,25 @@
+import matrix.db.*;
+import java.io.*;
+import java.util.*;
+public class ${CLASSNAME}
+{
+public ${CLASSNAME} () {
+}
+public void insertMap(Context context, String[] args)throws
+Exception
+{
+BufferedWriter writer = new BufferedWriter(new
+MatrixWriter(context));
+Map map=new HashMap();
+map.put("name", "Avneesh Shrivastav");
+map.put("company", "Tech Mahindra");
+map.put("age","23");
+String[] args = JPO.packArgs(map);
+}
+
+
+public ${CLASSNAME} (Context context, String[] args) throws
+Exception
+{
+}
+}

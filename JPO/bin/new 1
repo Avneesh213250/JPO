@@ -1,0 +1,37 @@
+What is the syntax to delete bussiness object though MQL command prompt?
+1. delete bus BO_NAME;
+2. delete bus 45181.64006.45205.1092
+3. None of these
+4. Both 1 and 2
+
+Ans> 4
+
+How to Modify Business Object through MQL command prompt?
+1. modify bus BO_NAME [MODIFY_ITEM]
+2. modify bus BO_NAME
+3. mod bus BO_NAME [MODIFY_ITEM]
+4. None of these
+
+Ans> 1
+
+How to Copy Business Object through MQL command prompt?
+1. copy businessobject BO_NAME to NAME;
+2. copy businessobject BO_NAME to NAME REVISION [ITEM {ITEM}];
+3. copy businessobject BO_NAME to REVISION [ITEM {ITEM}];
+4. None of these.
+
+Ans> 2
+What is the abbrivation of MQL?
+1. Markup Query Language.
+2. Matrix Queue Language.
+3. Matrix Query Language.
+4. None of these
+
+Ans> 3
+
+What is query to print attribute value of a business object?
+1. print bus TYPE NAME REVISION select attribute[attribute_name];
+2. print bus TYPE NAME REVISION select attribute;
+3. print bus TYPE NAME REVISION select attribute_name;
+
+Ans> 1

@@ -1,0 +1,21 @@
+add type Pen;
+add attribute length type integer default 6;
+add attribute pen_color type string default white;
+add type Refill;
+add attribute ink_color type string default blue;
+mod type Pen add attribute length;
+mod type Pen add attribute pen_color;
+mod type Refill add attribute length;
+mod type Refill add attribute ink_color;
+
+
+
+
+
+===============================
+insert program D:/enovia_java/jpo/map_mxJPO.java;
+insert program D:/enovia_java/jpo/getMap_mxJPO.java;
+compile program map [force] [update] [COMPILER_FLAGS];
+compile program getMap [force] [update] [COMPILER_FLAGS];
+exec program map -method insertMap;
+
